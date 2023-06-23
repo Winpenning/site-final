@@ -1,0 +1,91 @@
+*{
+    font-family: 'Nerko One', cursive;
+    font: bold ;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;/*Evita que elementos filhos tenham tamanho maior que o elemento pai*/
+}
+
+img{
+    width: 100%;
+}
+#a{
+    min-height: 90vh;
+    background-image: url(./img/server.jpg);
+    background-size: cover;
+}
+
+#title{
+    font-size: 3rem;
+    padding: 5rem;
+    position: relative;
+    display: flex;
+    width: 50%;
+    background-color: rgba(1, 1, 1, 0.543);
+    color: white;
+}
+#phrase{
+    font-size: 1.5rem;
+    padding: 2rem;
+    color: white;
+   margin-top: 10rem;
+   width: 100%;
+   background-color: rgba(1, 1, 1, 0.543);
+}
+
+main{
+    height: 100%;
+}
+
+#img{
+    width: 40%;
+    margin: 50px;
+    border-radius: 10%;
+}
+#text-main-1{
+    background-color: rgba(1, 1, 1, 0.543);
+    font-size: 1.5rem;
+    padding: 2rem;
+    color: white;
+    margin: 10px;
+}
+
+#text-card-1{
+    margin: 10px;
+    background-color: rgba(1, 1, 1, 0.543);
+    padding: 2rem;
+    color: white;
+}
+
+#chamados{
+    background-color: rgba(255, 2, 221, 0.68);
+}
+#chamados img{
+    margin-top: 1%;
+}
+
+#chamados-recentes{
+    background-color: rgba(1, 1, 1, 0.543);
+    color: aliceblue;
+    
+}
+
+#section2{
+    min-height: 90vh;
+}
+#section-text{
+    width: 100%;
+}
+
+#rodape{
+    background-color: rgba(255, 2, 221, 0.68);
+    height: 100%;
+    color: aliceblue;
+}
+
+#rodape a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1rem;
+}
+

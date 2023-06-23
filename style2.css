@@ -1,0 +1,53 @@
+html, body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+*{
+    font-family: 'Nerko One', cursive;
+}
+#header-background{
+    background-image: url(./img/server.jpg);
+    height: 100vh;
+    width: 100.8%;
+    background-size: cover;
+}
+#col-header{
+    margin: 10%;
+    background-color: rgba(1, 1, 1, 0.657);
+    padding: 5%;
+}
+#col-header p{
+    margin-top: 10%;
+}
+#title-section-1{
+    margin: 5%;
+    background-color: rgba(1, 1, 1, 0.657);
+    padding: 5%;
+}
+#text-section-1{
+    background-color: rgba(1, 1, 1, 0.657);
+    margin: 5%;
+    padding: 5%;
+}
+#chamados{
+    background-color: rgba(255, 2, 221, 0.68);
+}
+#mapa{
+    border-radius: 10%; 
+    border:0; 
+    width: 90%; 
+    height: 40vh;  
+    margin-top: 10%;
+}
+#img{
+    width: 50%;
+    margin-top: 20%;
+    margin-left: 25%;
+    border-radius: 10%;
+}
+footer{
+    background-color: rgba(255, 2, 221, 0.68);
+}
+#hypers{
+    text-decoration: none;
+}
